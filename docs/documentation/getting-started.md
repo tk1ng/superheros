@@ -1,8 +1,8 @@
 ---
 title: Getting Started with superheros
 excerpt: >-
-  This page will help you get started with superheros. You'll be up and running
-  in a jiffy!
+  This page will help you get started with superheros. <br> You'll be up and
+  running in a jiffy!
 hidden: false
 ---
 Welcome to ReadMe! :owlbert:
