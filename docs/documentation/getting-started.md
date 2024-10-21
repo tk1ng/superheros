@@ -1,7 +1,7 @@
 ---
 title: Getting Started with superheros
 excerpt: >-
-  This page will help you get started with superheros. \n You'll be up and
+  This page will help you get started with superheros.   You'll be up and
   running in a jiffy!
 hidden: false
 ---
