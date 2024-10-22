@@ -5,4 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-\<!--- add a comment -->
+<HTMLBlock>{`
+<!-- add a comment -->
+`}</HTMLBlock>
