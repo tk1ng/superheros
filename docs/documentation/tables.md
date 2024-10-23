@@ -184,7 +184,7 @@ metadata:
 
 
         **Copy Link**: Allows users to copy a link associated with the selected element for sharing or referencing.
-        \n **Lock**: Enables users to lock the selected element, preventing accidental modifications.**Bring to Front**: Moves the selected element to the front of other elements, ensuring its visibility above others.**Send to Back**: Sends the selected element behind other elements, placing it at the back behind interfering elements.**Delete**: Allows users to permanently remove the selected relationship.
+        /\n **Lock**: Enables users to lock the selected element, preventing accidental modifications.**Bring to Front**: Moves the selected element to the front of other elements, ensuring its visibility above others.**Send to Back**: Sends the selected element behind other elements, placing it at the back behind interfering elements.**Delete**: Allows users to permanently remove the selected relationship.
       </td>
     </tr>
   </tbody>
