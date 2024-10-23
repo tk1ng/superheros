@@ -91,7 +91,7 @@ metadata:
 
 
 
-        ....of space**Boldly going**
+        ....of space**Boldly going**These options offer users with greater control and flexibility in managing and manipulating relationships according to their needs and workflow:**Copy Link**: Allows users to copy a link associated with the selected element for sharing or referencing.**Lock**: Enables users to lock the selected element, preventing accidental modifications.**Bring to Front**: Moves the selected element to the front of other elements, ensuring its visibility above others.**Send to Back**: Sends the selected element behind other elements, placing it at the back behind interfering elements.**Delete**: Allows users to permanently remove the selected relationship.
       </td>
     </tr>
   </tbody>
