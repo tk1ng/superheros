@@ -135,24 +135,8 @@ metadata:
 </Table>
 
 <HTMLBlock>{`
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th style={{ textAlign: "left" }}>
         These options offer users with greater control and flexibility in managing and manipulating relationships according to their needs and workflow:
 
 
-
-
-
-
-
-        **Copy Link**: Allows users to copy a link associated with the selected element for sharing or referencing.
-        <br>**Lock**: Enables users to lock the selected element, preventing accidental modifications.<br>**Bring to Front**: Moves the selected element to the front of other elements, ensuring its visibility above others.<br>**Send to Back**: Sends the selected element behind other elements, placing it at the back behind interfering elements.<br>**Delete**: Allows users to permanently remove the selected relationship.
-      </th>
-    </tr>
-  </thead>
-
-  <tbody />
-</Table>
+        **Copy Link**: Allows users to copy a link associated with the selected element for sharing or referencing.**Lock**: Enables users to lock the selected element, preventing accidental modifications.**Bring to Front**: Moves the selected element to the front of other elements, ensuring its visibility above others.**Send to Back**: Sends the selected element behind other elements, placing it at the back behind interfering elements.**Delete**: Allows users to permanently remove the selected relationship.
 `}</HTMLBlock>
