@@ -72,5 +72,27 @@ metadata:
         Llámanos al +52 33 11224455
       </td>
     </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Give space
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        1
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Give a little bit
+
+
+
+
+
+
+
+        ....of space
+      </td>
+    </tr>
   </tbody>
 </Table>
