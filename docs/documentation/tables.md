@@ -94,5 +94,19 @@ metadata:
         ....of space**Boldly going**
       </td>
     </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        These options offer users with greater control and flexibility in managing and manipulating relationships according to their needs and workflow:
+      </td>
+    </tr>
   </tbody>
 </Table>
