@@ -167,7 +167,7 @@ metadata:
 
     <tr>
       <td style={{ textAlign: "left" }}>
-        test
+
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -183,9 +183,7 @@ metadata:
 
 
 
-        **Copy Link**
-
-        : Allows users to copy a link associated with the selected element for sharing or referencing.
+        Copy Link: Allows users to copy a link associated with the selected element for sharing or referencing.
 
 
 
@@ -193,9 +191,7 @@ metadata:
 
 
 
-        **Lock**
-
-        : Enables users to lock the selected element, preventing accidental modifications.
+        Lock: Enables users to lock the selected element, preventing accidental modifications.
 
 
 
@@ -203,9 +199,7 @@ metadata:
 
 
 
-        **Bring to Front**
-
-        : Moves the selected element to the front of other elements, ensuring its visibility above others.
+        Bring to Front: Moves the selected element to the front of other elements, ensuring its visibility above others.
 
 
 
@@ -213,9 +207,7 @@ metadata:
 
 
 
-        **Send to Back**
-
-        : Sends the selected element behind other elements, placing it at the back behind interfering elements.
+        Send to Back: Sends the selected element behind other elements, placing it at the back behind interfering elements.
 
 
 
@@ -223,7 +215,7 @@ metadata:
 
 
 
-        **Delete**: Allows users to permanently remove the selected relationship.
+        Delete: Allows users to permanently remove the selected relationship.
       </td>
     </tr>
   </tbody>
