@@ -167,7 +167,7 @@ metadata:
 
     <tr>
       <td style={{ textAlign: "left" }}>
-        test 2
+        test
       </td>
 
       <td style={{ textAlign: "left" }}>
