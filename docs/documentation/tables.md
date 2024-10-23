@@ -106,8 +106,8 @@ metadata:
 
       <td style={{ textAlign: "left" }}>
         <HTMLBlock>{`
-                        These options offer users with greater control and flexibility in managing and manipulating relationships according to their needs and workflow:
-                        <br><br>**Copy Link**: Allows users to copy a link associated with the selected element for sharing or referencing.<br><br>**Lock**: Enables users to lock the selected element, preventing accidental modifications.<br><br>**Bring to Front**: Moves the selected element to the front of other elements, ensuring its visibility above others.<br><br>**Send to Back**: Sends the selected element behind other elements, placing it at the back behind interfering elements.<br><br>**Delete**: Allows users to permanently remove the selected relationship.
+                                These options offer users with greater control and flexibility in managing and manipulating relationships according to their needs and workflow:
+                                <br><br><b>Copy Link<b>: Allows users to copy a link associated with the selected element for sharing or referencing.<br><br>**Lock**: Enables users to lock the selected element, preventing accidental modifications.<br><br>**Bring to Front**: Moves the selected element to the front of other elements, ensuring its visibility above others.<br><br>**Send to Back**: Sends the selected element behind other elements, placing it at the back behind interfering elements.<br><br>**Delete**: Allows users to permanently remove the selected relationship.
         `}</HTMLBlock>
       </td>
     </tr>
