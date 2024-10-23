@@ -183,7 +183,9 @@ metadata:
 
 
 
-        Copy Link: Allows users to copy a link associated with the selected element for sharing or referencing.
+        **Copy Link**
+
+        : Allows users to copy a link associated with the selected element for sharing or referencing.
 
 
 
