@@ -8,3 +8,5 @@ metadata:
 <HTMLBlock>{`
 <!-- add a comment -->
 `}</HTMLBlock>
+
+{/* markdown comment */}
