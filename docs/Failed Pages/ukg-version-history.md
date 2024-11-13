@@ -6,36 +6,6 @@ metadata:
   robots: index
 ---
 
-## July 2022
-
-The following operations were added to the API in July 2022:
-
-Domain                                    | Resource                                           | Operation                                                            | Method | URL endpoint
-----------------                          | ----------------                                   | ----------------                                                     | ------ | ----------------
-Configuration                             | Benefits Reductions                                | Retrieve Benefit Reductions                                          | GET    | /configuration/v1/benefit-reduction
-Configuration                             | Insurance Rate           		                   | Retrieve Insurance Rate                                              | GET    | /configuration/v1/insurance-rate
-Configuration                             | Option Rate                                        | Retrieve Option Rate                                                 | GET    | /configuration/v1/option-rate
-Configuration                             | Positions                                          | Retrieve Positions                                                   | GET    | /configuration/v1/positions
-Configuration                             | Roles                                              | Retrieve Roles                                                       | GET    | /configuration/v1/roles
-Configuration                             | Shift Codes                                        | Retrieve Shift Codes                                                 | GET    | /configuration/v1/shift-codes
-Payroll                                   | Earnings History Base Elements                     | Retrieve Earnings History Base Elements                              | GET    | /payroll/v1/earnings-history-base-elements
-Payroll                                   | Pay Group Pay Periods                              | Retrieve Pay Groups And Pay Periods                                  | GET    | /payroll/v1/paygroup-payperiods
-Personnel                                 | Audit Details                                      | Retrieve Audit Detail                                                | GET    | /personnel/v1/audit-details
-Personnel                                 | Dependent Deductions                               | Retrieve Dependent Deduction                                         | GET    | /personnel/v1/dep-deductions
-Personnel                                 | Employee Cobra Details                             | Retrieve Employee Cobra Detail                                       | GET    | /personnel/v1/employee-cobra-details
-Personnel                                 | Employee Deduction Benefit Option Change Date      | Retrieve Employee Deduction Benefit Option Change Date               | GET    | /personnel/v1/emp-deductions-benefit-option-change-date
-Personnel                                 | Integration Audit Configuration                    | Retrieve Integration Audit Configuration                             | GET    | /personnel/v1/integration-audit-configuration
-Personnel                                 | Business Structure Status                          | Retrieve Business Structure Status                                   | GET    | /personnel/v1/integration/kronos/business-structure-status
-Personnel                                 | Employee Status                                    | Retrieve Employee Status                                             | GET    | /personnel/v1/integration/kronos/employee-status
-Personnel                                 | Employee Profiles                                  | Retrieve Employee                                                    | GET    | /personnel/v1/integration/kronos/employee-profiles
-Payroll                                   | Employee Pay Statement > CompanyPayStatement       | Retrieve Employee(s) Pay Statement Summaries                         | POST   | /payroll/v1/companies/pay-statements-summary
-Payroll                                   | Employee Pay Statement > CompanyPayStatement       | Retrieve Employee(s) Pay Statements                                  | POST   | /payroll/v1/companies/pay-statements
-Payroll                                   | Employee Pay Statement > EmployeePayStatement      | Retrieve Employee Pay Statements By Employee ID                      | POST   | /payroll/v1/employees/pay-statements
-Payroll                                   | Employee Pay Statement > EmployeePayStatement      | Retrieve Last Pay Statement By Employee ID                           | POST   | /payroll/v1/employees/pay-statement/last
-Payroll                                   | Employee Pay Statement > EmployeePayStatement      | Retrieve Employee Pay Statement by Pay ID                            | GET    | /payroll/v1/pay-statement/{PayIdentifier}
-Configuration                             | Earnings Code > Earnings                           | Retrieve All Earnings Configurations                                 | GET    | /configuration/v1/earnings
-Configuration                             | Earnings Code > Earnings                           | Retrieve Earnings Configurations By Parameter                        | GET    | /configuration/v1/earnings/{CalculationRule}/{TaxCategory}/{UseDeductionOffset}/{CountryCode}/{IncludeInShiftDifferential}/{IncludeInManualCheck}
-Configuration                             | Earnings Code > Earnings                           | Retrieve Specific Earning Configuration                              | GET    | /configuration/v1/earnings/{EarningCode}
 
 ## June 2022
 
