@@ -7,7 +7,7 @@ metadata:
 ---
 
 
-## 2024.R1
+
 
 The following operations were added to the API in 2024.R1:
 
