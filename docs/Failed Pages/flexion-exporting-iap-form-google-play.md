@@ -155,14 +155,14 @@ Accept: application/json`
 **Note**: using HTTP to call the API allows you to get the pricing details from Google without any software development. This can be achieved through calling the API from a browser using a plugin which can add or modify required HTTP headers.
 
 ### Javascript
-
-```<script src="https://apis.google.com/js/api.js"></script><script>  
-  /\*\*  
+```javascript
+<script src="https://apis.google.com/js/api.js"></script><script>  
+  /**  
 _Sample JavaScript code for androidpublisher.inappproducts.list  
 \_See instructions for running APIs Explorer code samples locally:  
 \_<https://developers.google.com/explorer-help/guides/code_samples#javascript>  
-_/\`
-
+_/\
+```
   function authenticate() {
     return gapi.auth2.getAuthInstance()
         .signIn({scope: "https://www.googleapis.com/auth/androidpublisher"})
