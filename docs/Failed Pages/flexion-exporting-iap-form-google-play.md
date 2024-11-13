@@ -156,7 +156,7 @@ Accept: application/json`
 
 ### Javascript
 
-`<script src="https://apis.google.com/js/api.js"></script><script>  
+```<script src="https://apis.google.com/js/api.js"></script><script>  
   /\*\*  
 _Sample JavaScript code for androidpublisher.inappproducts.list  
 \_See instructions for running APIs Explorer code samples locally:  
@@ -189,7 +189,7 @@ _/\`
   gapi.load("client:auth2", function() {
     gapi.auth2.init({client_id: "YOUR_CLIENT_ID"});
   });
-</script>`
+</script>```
 
 `<button onclick="authenticate().then(loadClient)">authorize and load</button>
 <button onclick="execute()">execute</button>`
