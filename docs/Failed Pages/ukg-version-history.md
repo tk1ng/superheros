@@ -5,29 +5,6 @@ hidden: true
 metadata:
   robots: index
 ---
-
-
-## June 2022
-
-The following operations were added to the API in June 2022:
-
-Domain                                    | Resource                                           | Operation                                                             | Method | URL endpoint
-----------------                          | ----------------                                   | ----------------                                                      | ------ | ----------------
-Payroll                                   | Payroll Deductions History                         | Retrieve Payroll Deduction History                                    | GET    | /payroll/v1/payroll-deductions-history)
-Payroll                                   | Pay Register              		                   | Retrieve Pay Register                                                 | GET    | /payroll/v1/pay-register
-Personnel                                 | Employee Deduction History Effective Change Date   | Retrieve Employee Deduction History Effective Change Date             | GET    | /personnel/v1/deduction-history-effective-change-dates
-Personnel                                 | Open Enrollment Dependent Deductions               | Retrieve Open Enrollment Dependent Deduction                          | GET    | /personnel/v1/open-enrollment-dep-deductions
-Personnel                                 | Position Report                                    | Retrieve Position Report                                              | GET    | /personnel/v1/position-report
-Personnel                                 | User Preferences                                   | Retrieve User Preferences                                             | GET    | /personnel/v1/user-preferences
-Personnel                                 | User Profile                                       | Retrieve User Profile                                                 | GET    | /personnel/v1/user-profile-details
-
-The following operations were enhanced in the API in June 2022:
-
-Domain                                    | Resource                                           | Operation                                                             | Method | URL endpoint
-----------------                          | ----------------                                   | ----------------                                                      | ------ | ----------------
-Configuration                             | Code Tables                                        | Retrieve Code Table                                                   | GET    | /configuration/v1/code-tables
-Configuration                             | Code Tables                                        | Update Code Table                                                     | POST   | /configuration/v1/code-tables
-
 ## May 2022
 
 The following operations were added to the API in May 2022:
