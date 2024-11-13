@@ -5,22 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-## September 2024 Pro Update
 
-The following operations were added to the API in September 2024:
-
-| Domain                | Resource      | Operation                                          | Method | URL endpoint                                                |
-| ------                | --------      | ---------                                          | ------ | -------------                                               | 
-| Payroll Pending Items | Deductions    | Create Deduction Pending Pay Item                  | POST   | /services/payroll/v2/payroll-pending-items/deductions       |
-| Payroll Pending Items | Deductions    | Retrieve Deduction Pending Pay Item by Source Key  | GET    | /services/payroll/v2/payroll-pending-items/deductions       |
-| Payroll Pending Items | Deductions    | Retrieve Deduction Pending Pay Item by ID          | GET    | /services/payroll/v2/payroll-pending-items/deductions/{id}  |
-| Payroll Pending Items | Deductions    | Delete Deduction Pending Pay Item                  | DELETE | /services/payroll/v2/payroll-pending-items/deductions/{id}  |
-| Payroll Pending Items | Earnings      | Create Earnings Pending Pay Item                   | POST   | /services/payroll/v2/payroll-pending-items/earnings         |
-| Payroll Pending Items | Earnings      | Retrieve Earnings Pending Pay Item by Source Key   | GET    | /services/payroll/v2/payroll-pending-items/earnings         |
-| Payroll Pending Items | Earnings      | Retrieve Earnings Pending Pay Item by ID           | GET    | /services/payroll/v2/payroll-pending-items/earnings/{id}    |
-| Payroll Pending Items | Earnings      | Delete Earnings Pending Pay Item                   | DELETE | /services/payroll/v2/payroll-pending-items/earnings/{id}    |
-| Recruiting            | Opportunities | Retrieve Recruiters and Opportunity is Shared With | GET    | {tenantalias}/api/opportunities/{opportunityId}/shared-with |
-| Recruiting            | Opportunities | Share Opportunity with Recruiter                   | POST   | {tenantalias}/api/opportunities/{opportunityId}/shared-with |
 
 ## 2024.R1
 
@@ -284,4 +269,3 @@ Domain                                    | Resource                            
 ----------------                          | ----------------                                   | ----------------                        | ------ | ----------------
 Personnel                                 | Employee File Management                           | Retrieve                                | GET    | /personnel/v1/person-details
 Personnel                                 | Employee Case Management                           | Retrieve                                | GET    | /personnel/v1/person-details
-
