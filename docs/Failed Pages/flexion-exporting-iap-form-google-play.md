@@ -1,7 +1,7 @@
 ---
 title: Flexion - Exporting iap form google play
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
