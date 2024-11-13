@@ -10,5 +10,3 @@ metadata:
 `}</HTMLBlock>
 
 {/* markdown comment */}
-
-<TestBlock />
