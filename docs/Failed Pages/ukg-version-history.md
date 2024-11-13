@@ -6,21 +6,6 @@ metadata:
   robots: index
 ---
 
-
-
-
-
-
-## August 2022
-
-The following operations were added to the API in August 2022:
-
-Domain                                    | Resource                                           | Operation                                                            | Method | URL endpoint
-----------------                          | ----------------                                   | ----------------                                                     | ------ | ----------------
-Personnel                                 | Employee Security User Details                     | Retrieve Employee Security User Details                              | GET    | /personnel/v1/employee-security-user-details
-Personnel                                 | Employee Extended Elements                         | Retrieve Employee Extended Elements                                  | GET    | /personnel/v1/employee-extended-elements
-Payroll                                   | Earnings History Base Elements                     | Retrieve Earnings History Base Elements                              | GET    | /payroll/v1/earnings-history-base-elements
-
 ## July 2022
 
 The following operations were added to the API in July 2022:
