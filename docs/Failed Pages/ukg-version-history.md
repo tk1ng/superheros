@@ -1,7 +1,7 @@
 ---
 title: UKG - Version History
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
@@ -308,19 +308,3 @@ Personnel                                 | Compensation Details                
 Personnel                                 | Employment Details                                     | Retrieve Employement Data                                                    | GET    | /personnel/v1/employment-details
 Personnel                                 | Person Details                                         | Retrieve Details On A Person Shared Across Companies                         | GET    | /personnel/v1/person=details
 
-## September 2017
-
-The following operations were added to the API in September 2017:
-
-Domain                                    | Resource                                               | Operation                                                                    | Method | URL endpoint
-----------------                          | ----------------                                       | ----------------                                                             | ------ | ----------------
-Personnel                                 | Employee ID Lookup                                     | Retrieve Employee ID and Company ID                                          | POST   | /personnel/v1/employee-ids
-Personnel                                 | Employee Changes > Change By Date                      | Retrieve Employee Attribute Changes                                          | GET    | /personnel/v1/employee-changes
-Personnel                                 | Employee Changes                                       | Retrieve Attribute Changes For Specific Employee                             | GET    | /personnel/v1/employee-changes/{employeeId}
-Configuration                             | Organizational Levels                                  | Retrieve All Org Levels                                                      | GET    | /configuration/v1/org-levels
-Configuration                             | Organizational Levels                                  | Create Org Level Configuration                                               | POST   | /configuration/v1/org-levels
-Configuration                             | Organizational Levels                                  | Retrieve Single Org Level                                                    | GET    | /configuration/v1/org-levels/{level}/{code}
-Configuration                             | Organizational Levels                                  | Patch One Org Level                                                          | PATCH  | /configuration/v1/org-levels/{level}/{code}
-Configuration                             | Organizational Levels                                  | Update One Org Level                                                         | PUT    | /configuration/v1/org-levels/{level}/{code}
-Configuration                             | Code Tables                                            | Retrieve Code Tables And Codes in UKG Pro Used To Populate Drop Downs        | GET    | /configuration/v1/code-tables
-Configuration                             | Code Tables                                            | Update Code Tables And Codes in UKG Pro Used To Populate Drop Downs          | POST   | /configuration/v1/code-tables
