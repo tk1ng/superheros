@@ -5,25 +5,6 @@ hidden: true
 metadata:
   robots: index
 ---
-## May 2022
-
-The following operations were added to the API in May 2022:
-
-Domain                                    | Resource                                           | Operation                                                             | Method | URL endpoint
-----------------                          | ----------------                                   | ----------------                                                      | ------ | ----------------
-Configuration                             | Tax Group Details                                  | Retrieve Tax Group                                                   | GET    | /configuration/v1/tax-groups
-Personnel                                 | User Details              		                   | Retrieve User Details                                                | GET    | /personnel/v1/user-details
-Configuration                             | Organization Reporting Category                    | Retrieve Organizational Reporting Category From Org Level Codes      | GET    | /configuration/v1/organization-reporting-category
-Personnel                                 | Employee Supervisor Details                        | Retrieve Employee Supervisor Details                                 | GET    | /personnel/v1/employee-supervisor-details
-Personnel                                 | Employee Multiple Positions                        | Retrieve Multiple Position Employees                                 | GET    | /personnel/v1/empl-multiple-positions
-Personnel                                 | Open Enrollment Employee Deductions                | Retrieve Open Enrollment Deductions                                  | GET    | /personnel/v1/open-enrollment-emp-deductions
-Personnel                                 | Employee Multiple Phone Numbers                    | Retrieve Multiple Phone Number Employees                             | GET    | /personnel/v1/employee-multi-phone-numbers
-Personnel                                 | Employee Multiple Jobs                             | Retrieve Multiple Job Employees                                      | GET    | /personnel/v1/empl-multiple-jobs
-Personnel                                 | Employee Deductions                                | Retrieve Employee Deductions From Benefits                           | GET    | /personnel/v1/empl-deductions
-Configuration                             | Job Groups                                         | Retrieve Job Groups Using Job Group Codes                            | GET    | /configuration/v1/jobgroup
-Personnel                                 | Employee Demographic Details                       | Retrieve Employee Demographic Details                                | GET    | /personnel/v1/employee-demographics-details
-Configuration                             | Deduction Code                                     | Retrieve Deduction Configuration For Benefit Setup                   | GET    | /configuration/v1/deductions
-
 ## April 2022
 
 The following operations were added to the API in April 2022:
