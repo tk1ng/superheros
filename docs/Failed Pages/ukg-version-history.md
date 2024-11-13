@@ -285,26 +285,3 @@ Domain                                    | Resource                            
 Personnel                                 | Employee File Management                           | Retrieve                                | GET    | /personnel/v1/person-details
 Personnel                                 | Employee Case Management                           | Retrieve                                | GET    | /personnel/v1/person-details
 
-## October 2018
-
-The following operations were added to the API in October 2018:
-
-Domain                                    | Resource                                               | Operation                                                                    | Method | URL endpoint
-----------------                          | ----------------                                       | ----------------                                                             | ------ | ----------------
-Personnel                                 | International Employees                                | Retrieve All International Employee Details                                  | GET    | /personnel/v1/international-employees
-Personnel                                 | Internalional Employees                                | Retrieve Details For A Specific International Employee                       | GET    | /personnel/v1/international-employees/{employeeId}
-Personnel                                 | Global Employee Direct Deposit Details                 | Retrieve Direct Deposit Details For Global Employees                         | GET    | /personnel/v1/employee-global-banks
-Personnel                                 | Employee Case Localization                             | Retrieve Global Employee Localization Fields Added To UKG Pro                | GET    | /personnel/v1/employee-global-localization-elements
-Personnel                                 | Employee Education                                     | Retrieve                                                                     | GET    | /personnel/v1/employee-education
-Personnel                                 | Employee Job History                                   | Retrieve Employee Job History                                                | GET    | /personnel/v1/employee-job-history-details
-Personnel                                 | Employee National Documents                            | Retrieve National Documents Assigned To Employees Or Contacts                | GET    | /personnel/v1/national-documents
-Personnel                                 | Employee Case Management                               | Retrieve Contract Data Assigned Employees                                    | GET    | /personnel/v1/employee-contract-details
-
-The following operations were enhanced in the API in October 2018:
-
-Domain                                    | Resource                                               | Operation                                                                    | Method | URL endpoint
-----------------                          | ----------------                                       | ----------------                                                             | ------ | ----------------
-Personnel                                 | Compensation Details                                   | Retrieve Compensation And Pay Group Details                                  | GET    | /personnel/v1/compensation-details
-Personnel                                 | Employment Details                                     | Retrieve Employement Data                                                    | GET    | /personnel/v1/employment-details
-Personnel                                 | Person Details                                         | Retrieve Details On A Person Shared Across Companies                         | GET    | /personnel/v1/person=details
-
