@@ -47,7 +47,7 @@ The Developer API for in-app item prices is a simple CRUD API.
 
 **Note**: packageName is the game’s original package name.
 
-**Allowed methods:**<https://developers.google.com/android-publisher/api-ref/rest/v3/inappproducts>
+**Allowed methods:**`<https://developers.google.com/android-publisher/api-ref/rest/v3/inappproducts>`
 
 There are 4 methods to call the API:
 
@@ -78,7 +78,7 @@ There are two steps to get item details:
 There are two steps to get the access token.
 
 1. Request authentication code by logging in with your Google account
-   1. Open this URL in a browser, where YOUR_CLIENT_ID is the OAuth Client ID: <https://accounts.google.com/o/oauth2/v2/auth?client_id=YOUR_CLIENT_ID&response_type=code&scope=https://www.googleapis.com/auth/androidpublisher&access_type=offline&redirect_uri=urn:ietf:wg:oauth:2.0:oob>
+   1. Open this URL in a browser, where YOUR_CLIENT_ID is the OAuth Client ID: `<https://accounts.google.com/o/oauth2/v2/auth?client_id=YOUR_CLIENT_ID&response_type=code&scope=https://www.googleapis.com/auth/androidpublisher&access_type=offline&redirect_uri=urn:ietf:wg:oauth:2.0:oob>`
    2. Log into your account and authorize the request
    3. Copy the authentication code Google generated
 2. Request access token
@@ -88,7 +88,7 @@ There are two steps to get the access token.
 | Request Details |                                              |
 | :-------------- | :------------------------------------------- |
 | Method details  | POST                                         |
-| IRÉ             | <https://www.googleapis.com/oauth2/v4/token> |
+| IRÉ             | `<https://www.googleapis.com/oauth2/v4/token>` |
 
 | Headers      |                                   |
 | :----------- | :-------------------------------- |
@@ -114,4 +114,4 @@ Send a GET request to the Google Developer API to get the item details
 | Request details |                                                                                                                        |
 | :-------------- | :--------------------------------------------------------------------------------------------------------------------- |
 | Method          | GET                                                                                                                    |
-| URL             | <https://androidpublisher.googleapis.com/androidpublisher/v3/applications/PACKAGE_NAME/inappproducts?key=YOUR_API_KEY> |
+| URL             | `<https://androidpublisher.googleapis.com/androidpublisher/v3/applications/PACKAGE_NAME/inappproducts?key=YOUR_API_KEY>` |
