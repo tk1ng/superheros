@@ -5,23 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-## April 2022
 
-The following operations were added to the API in April 2022:
-
-Domain                                    | Resource                                           | Operation                                                            | Method | URL endpoint
-----------------                          | ----------------                                   | ----------------                                                     | ------ | ----------------
-Personnel                                 | User-Defined Fields                                | Retrieve User Designed Fields                                        | GET    | /personnel/v1/user-defined-fields
-Personnel                                 | User-Defined Fields                                | Retrieve Single Company User Defined Fields                          | GET    | /personnel/v1/{companyId}/user-defined-fields
-Personnel                                 | User-Defined Fields                                | Retrieve Single Employee In Single Company User Defined Fields       | GET    | /personnel/v1/{companyId}/employees/{employeeId}/user-defined-fields
-
-## March 2022
-
-The following operation was added to the API in March 2022:
-
-Domain                                    | Resource                                           | Operation                                                             | Method | URL endpoint
-----------------                          | ----------------                                   | ----------------                                                      | ------ | ----------------
-Personnel                                 | Employee Employement Details                          | Retrieve Employee Employment Details                               | GET    | /personnel/v1/employee-employment-details
 
 ## July 2020
 
