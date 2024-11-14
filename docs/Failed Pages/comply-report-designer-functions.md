@@ -5,6 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
+```
 Expression Language
 
 <br />
@@ -480,3 +481,4 @@ This is a comment within an expression.
 _/
 
 Comments start with the /_ sequence and end at the matching _/ sequence.
+```
