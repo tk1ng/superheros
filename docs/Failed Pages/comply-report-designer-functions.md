@@ -181,13 +181,13 @@ Multiplies the value of two operands.
 
 Divides the first operand by the second.  
 If both operands are integer, the resulting value is integer too. For example, 10/4 returns the value of 2.  
-To return fractional values, ensure that at least one operand is of a floating-point type: ToDecimal(10)/4 returns the value of 2.5.
+To return fractional values, ensure that at least one operand is of a floating-point type: `ToDecimal(10)/4` returns the value of 2.5.
 
 `[Quantity] / 2`
 
 %
 
-Divides one numeric operand by the other and returns the remainder (modulus).
+Divides one numeric operand by the other and returns the remainder \(modulus\).
 
 `[Quantity] % 3`
 
@@ -247,13 +247,13 @@ Greater than operator. Used to compare expressions.
 
 `[UnitPrice] > 30`
 
-In (,,,)
+`In (,,,)`
 
 Tests for the existence of a property in an object.
 
 `[Country] In (‘USA’, ‘UK’, ‘Italy’)`
 
-Between (,)
+`Between (,)`
 
 Specifies a range to test. Returns True if a value is greater than or equal to the first operand and less than or equal to the second operand.
 
@@ -297,19 +297,19 @@ Not [InStock]
 ```
  <br />
 
-Returns a numeric expression’s value (a unary operator).
+Returns a numeric expression’s value \(a unary operator\).
 
 `+[Value] = 10`
 
  <br />
 
-Returns the negative of a numeric expression’s value (a unary operator).
+Returns the negative of a numeric expression’s value \(a unary operator\).
 
 `-[Value] = 20`
 
 Is Null
 
-Returns True if an expression is a null reference (one that does not refer to any object).
+Returns True if an expression is a null reference \(one that does not refer to any object\).
 
 `[Region] is null`
 
@@ -365,9 +365,9 @@ Operators are case-insensitive. Case sensitivity of values can depend on the dat
 
 # Escape Keywords
 
-You can mark a keyword-like field name with the @ escape character. In the expression below, the CriteriaOperator.Parse method interprets @Or as a field named Or, not the logical operator OR.
+You can mark a keyword-like field name with the \@ escape character. In the expression below, the `CriteriaOperator.Parse` method interprets \@Or as a field named Or, not the logical operator OR.
 
-@Or = 'value'
+`@Or = 'value'`
 
 # Escape Characters
 
