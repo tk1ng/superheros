@@ -36,7 +36,7 @@ Every XML document must have a root element. Our root element is 'tweakwise' and
 
 # Adding items
 
-Now we will add all our items (i.e. products, content or articles).
+Now we will add all our items \(i.e. products, content or articles\).
 
 ## Products
 
@@ -213,4 +213,4 @@ Make sure this task is executed **after**the **category** import task, using the
 - If you don't have a basic understanding of XML, we recommend reading [XML for the uninitiated](https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44).
 - This tutorial will guide you in generating a feed in any programming language or tool, as long as you know how to write text to a file using that language or tool. It will also help you manually create a feed if needed.
 - To increase readability, the examples contain different levels of <Glossary>indentation</Glossary> and newlines. This is not required in your feed. Removing tabs and newlines can make the feed size smaller and have impact on the performance of the import.
-- It is best practice to apply [CDATA sections](https://www.tutorialspoint.com/xml/xml_cdata_sections.htm) to all fields containing text. For example, image and url elements usually contain characters like an ampersand (&). To increase readability in this guide we omit this from some elements.
+- It is best practice to apply [CDATA sections](https://www.tutorialspoint.com/xml/xml_cdata_sections.htm) to all fields containing text. For example, image and url elements usually contain characters like an ampersand \(&\). To increase readability in this guide we omit this from some elements.
