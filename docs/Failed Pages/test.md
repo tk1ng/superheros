@@ -42,66 +42,7 @@ Now we will add all our items (i.e. products, content or articles).
 
 For each product we have to write an 'item' element. An item has the following required properties:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Property",
-    "h-1": "Required",
-    "h-2": "Type",
-    "h-3": "Max length",
-    "h-4": "Description",
-    "0-0": "id",
-    "0-1": "yes",
-    "0-2": "alphanumeric",
-    "0-3": "100",
-    "0-4": "A <<glossary:unique identifier>>",
-    "1-0": "name",
-    "1-1": "yes",
-    "1-2": "alphanumeric",
-    "1-3": "500",
-    "1-4": "The item name",
-    "2-0": "price",
-    "2-1": "yes",
-    "2-2": "decimal",
-    "2-3": "\\-",
-    "2-4": "The item price.",
-    "3-0": "stock",
-    "3-1": "yes",
-    "3-2": "numeric",
-    "3-3": "\\-",
-    "3-4": "The current available stock.",
-    "4-0": "brand",
-    "4-1": "no",
-    "4-2": "alphanumeric",
-    "4-3": "250",
-    "4-4": "The item brand",
-    "5-0": "groupcode",
-    "5-1": "no",
-    "5-2": "alphanumeric",
-    "5-3": "100",
-    "5-4": "Code used to group products related to each other, this field is necessary if the grouping is used for your lister pages.  \nNot supported in Tweakwise JS.",
-    "6-0": "image",
-    "6-1": "no\\*",
-    "6-2": "alphanumeric",
-    "6-3": "500",
-    "6-4": "the main image <<glossary:URL>>.",
-    "7-0": "url",
-    "7-1": "no\\*",
-    "7-2": "alphanumeric",
-    "7-3": "500",
-    "7-4": "a <<glossary:URL>> to the item page."
-  },
-  "cols": 5,
-  "rows": 8,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+
 
 
 \* In case of Tweakwise JS, these are recommended.
@@ -165,33 +106,6 @@ Let's create an XML element for our Tweakwise T-Shirt:
 # Adding attributes
 
 Of course you'd want to add more information about the item so Tweakwise can use those properties for search. 
-
-[block:parameters]
-{
-  "data": {
-    "h-0": "Property",
-    "h-1": "Type",
-    "h-2": "Max length",
-    "h-3": "Description",
-    "0-0": "name",
-    "0-1": "alphanumeric",
-    "0-2": "100",
-    "0-3": "The attribute name.  \n**Note**: this field cannot not contain HTML.",
-    "1-0": "value",
-    "1-1": "alphanumeric",
-    "1-2": "400",
-    "1-3": "The attribute value."
-  },
-  "cols": 4,
-  "rows": 2,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
 
 
 For a T-shirt you probably want the color and size. Let's add them in an attributes element:
