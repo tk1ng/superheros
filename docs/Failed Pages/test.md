@@ -7,38 +7,6 @@ metadata:
 ---
 
 
-## 
-
-# Adding attributes
-
-Of course you'd want to add more information about the item so Tweakwise can use those properties for search. 
-
-
-For a T-shirt you probably want the color and size. Let's add them in an attributes element:
-
-```xml Example
-<item>
-  <id>TSH0123</id>
-  <name>Tweakwise T-Shirt</name>
-  <price>24.99</price>
-  <stock>10</stock>
-  <brand>Tweakwise</brand>
-  <groupcode>SHOE-GROUP1</groupcode>
-  <image><![CDATA[https://codesandboxdemostorage.blob.core.windows.net/codesandboxdemostorage/products/tshirt-blauw.jpg]]></image>
-  <url><![CDATA[https://3zbfu.csb.app/#twn|?tn_q=tweakwise%20t-shirt%20blue]]></url>
-  <attributes>
-    <attribute>
-      <name>Size</name>
-      <value>Medium</value>
-    </attribute>
-    <attribute>
-      <name>Color</name>
-      <value>Blue</value>
-    </attribute>
-  </attributes>
-</item>
-```
-
 We added an attributes element containing multiple attribute elements. Each attribute element contains a name and a value.
 
 > 📘 Multiple attribute values
