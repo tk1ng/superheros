@@ -5,21 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-If you want to transfer a large amount of product information between your platform and Tweakwise, you can use a specially formatted file to import that data. Tweakwise uses the [XML](https://www.tutorialspoint.com/xml/index.htm) format to perform this task. This is called the XML feed.
 
-In this guide, we'll build a **seperate products feed** together:
-
-- Basic structure
-- Adding items
-- Adding attributes to items
-- Adding category links to items
-- Import the feed
-
-You can view the full example feed [at the bottom of the page](#full-example).
-
-> 💡 Tip
-> 
-> The recommended method to get your product data into Tweakwise is by generating a feed with products and categories combined. To learn more, go to [Create an XML feed to import your catalog data in Tweakwise](https://docs.tweakwise.com/docs/generate-an-xml-feed).
 
 # Basic structure
 
