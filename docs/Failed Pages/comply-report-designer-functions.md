@@ -10,24 +10,6 @@ Expression Language
 
 
 
-```
-[UnitPrice] + 4
-
-[FirstName] + ‘ ‘ + [LastName]
-```
- <br />
-
-Finds the difference between two operands.
-
-`[Price1] - [Price2]`
-
- <br />
-
-Multiplies the value of two operands.
-
-`[Quantity] * [UnitPrice]`
-
-/
 
 Divides the first operand by the second.  
 If both operands are integer, the resulting value is integer too. For example, 10/4 returns the value of 2.  
