@@ -42,9 +42,6 @@ Now we will add all our items (i.e. products, content or articles).
 
 For each product we have to write an 'item' element. An item has the following required properties:
 
-
-
-
 \* In case of Tweakwise JS, these are recommended.
 
 Let's create an XML element for our Tweakwise T-Shirt:
