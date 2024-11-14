@@ -42,7 +42,7 @@ Now we will add all our items (i.e. products, content or articles).
 
 For each product we have to write an 'item' element. An item has the following required properties:
 
-
+**Add table here**
 
 \* In case of Tweakwise JS, these are recommended.
 
@@ -106,6 +106,8 @@ Let's create an XML element for our Tweakwise T-Shirt:
 
 Of course you'd want to add more information about the item so Tweakwise can use those properties for search. 
 
+**Add table here**
+
 
 For a T-shirt you probably want the color and size. Let's add them in an attributes element:
 
@@ -134,6 +136,7 @@ For a T-shirt you probably want the color and size. Let's add them in an attribu
 
 We added an attributes element containing multiple attribute elements. Each attribute element contains a name and a value.
 
+**Add callout here**
 
 # Adding category links
 
