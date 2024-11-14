@@ -8,19 +8,7 @@ metadata:
 Expression Language
 
 
-An expression string can consist of multiple lines that include constants, operators, function calls, fields or parameters, report items, and comments:
 
-/_  
-This expression is set for the Visible property of a control  
-to show/hide the control based on the ShowTotalAmount parameter value.  
-_/
-
-```
-Iif (  
-  ?ShowTotalAmount == True,  
-  True,  
-  False  
-  )
 ```
 Review the following help topic for information on how to construct expression bindings for a report control: How to Construct Expressions.
 
