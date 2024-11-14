@@ -7,38 +7,6 @@ metadata:
 ---
 Expression Language
 
-Performs a bitwise inclusive OR operation on two numeric expressions. Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.
-
-`[Number] | [Number]`
-
-&
-
-The bitwise AND operator. Compares each bit of its first operand to the corresponding bit of its second operand. If the two bits are 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.
-
-`[Number] & 10`
-
-^
-
-Performs a bitwise exclusive OR operation on two numeric expressions.
-
-`[Number] ^ [Number]`
-
-==
-
-=
-
-Returns True if both operands are equal; otherwise, it returns False.
-
-`[Quantity] == 10`
-
-!=
-
-Returns True if the operands are not equal; otherwise, it returns False.
-
-`[Country] != ‘France’`
-
-\<
-
 Less than operator. Used to compare expressions.
 
 `[UnitPrice] < 20`
