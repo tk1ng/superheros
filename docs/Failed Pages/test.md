@@ -6,26 +6,6 @@ metadata:
   robots: index
 ---
 
-
-We added an attributes element containing multiple attribute elements. Each attribute element contains a name and a value.
-
-> 📘 Multiple attribute values
-> 
-> You can add multi-value attributes in separate <attribute> elements with the same name but different values.
-> 
-> ```xml
-> <attributes>
->   <attribute>
->     <name>Color</name>
->     <value>Blue</value>
->   </attribute>
->   <attribute>
->     <name>Color</name>
->     <value>Red</value>
->   </attribute>
-> </attributes>
-> ```
-
 # Adding category links
 
 The last thing we have to do is link the T-shirt to the clothing category. For that we can use a categories element:
