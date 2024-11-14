@@ -465,7 +465,7 @@ The following expression binds a PictureBox control’s ImageSource property to 
 
 `[Images.imageItem1]`
 
-
+![](https://files.readme.io/abb9275-image.png)
 
 <br />
 
