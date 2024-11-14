@@ -85,7 +85,7 @@ You cannot specify an enumeration value by its qualified name. The following cri
 
 Call static methods of the EnumProcessingHelper class to register custom enumerations and refer to enumeration values as follows:
 
-Status = ##Enum#MyNamespace.Status,InProgress#
+`Status = ##Enum#MyNamespace.Status,InProgress#`
 
 Guid
 
