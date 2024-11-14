@@ -10,24 +10,7 @@ Expression Language
 
 
 
-Review the following help topic for information on how to construct expression bindings for a report control: How to Construct Expressions.
 
-You can create custom functions to implement additional functionality. For more information, review the following help topics:
-
-Custom Functions  
-Custom Aggregate Functions  
-#Constants  
-Constant
-
-Description
-
-Example
-
-String constants
-
-Wrap string constants in apostrophes.
-
-If a string contains an apostrophe, double the apostrophe.
 
 ```
 [Country] == ‘France’
