@@ -9,16 +9,16 @@ If you want to transfer a large amount of product information between your platf
 
 In this guide, we'll build a **seperate products feed** together:
 
-- Basic structure
-- Adding items
-- Adding attributes to items
-- Adding category links to items
-- Import the feed
+* Basic structure
+* Adding items
+* Adding attributes to items
+* Adding category links to items
+* Import the feed
 
 You can view the full example feed [at the bottom of the page](#full-example).
 
 > 💡 Tip
-> 
+>
 > The recommended method to get your product data into Tweakwise is by generating a feed with products and categories combined. To learn more, go to [Create an XML feed to import your catalog data in Tweakwise](https://docs.tweakwise.com/docs/generate-an-xml-feed).
 
 # Basic structure
@@ -42,7 +42,212 @@ Now we will add all our items (i.e. products, content or articles).
 
 For each product we have to write an 'item' element. An item has the following required properties:
 
-**Add table here**
+<Table align={["left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Property
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Required
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Type
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Max length
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        id
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        yes
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        100
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        A <Glossary>unique identifier</Glossary>
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        name
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        yes
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        500
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The item name.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        price
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        yes
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        decimal
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        \-
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The item price.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        stock
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        yes
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        numeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        \-
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The current available stock.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        brand
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        no
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        250
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The item brand
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        groupcode
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        no
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        100
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Code used to group products related to each other, this field is necessary if the grouping is used for your lister pages.\\
+        Not supported in Tweakwise JS
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        image
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        no\*
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        500
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        the main image <Glossary>URL</Glossary>.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        url
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        no\*
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        500
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        a <Glossary>URL</Glossary> to the item page.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
 
 \* In case of Tweakwise JS, these are recommended.
 
@@ -100,14 +305,74 @@ Let's create an XML element for our Tweakwise T-Shirt:
     
 ```
 
-## 
+##
 
 # Adding attributes
 
-Of course you'd want to add more information about the item so Tweakwise can use those properties for search. 
+Of course you'd want to add more information about the item so Tweakwise can use those properties for search.
 
-**Add table here**
+<Table align={["left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Property
+      </th>
 
+      <th style={{ textAlign: "left" }}>
+        Type
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Max length
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        name
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        100
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The attribute name.\\
+        **Note**: this field cannot not contain HTML.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        value
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        alphanumeric
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        400
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The attribute value.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
 
 For a T-shirt you probably want the color and size. Let's add them in an attributes element:
 
@@ -199,7 +464,7 @@ Make sure this task is executed **after**the **category** import task, using the
 
 # Good to know
 
-- If you don't have a basic understanding of XML, we recommend reading [XML for the uninitiated](https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44).
-- This tutorial will guide you in generating a feed in any programming language or tool, as long as you know how to write text to a file using that language or tool. It will also help you manually create a feed if needed.
-- To increase readability, the examples contain different levels of <Glossary>indentation</Glossary> and newlines. This is not required in your feed. Removing tabs and newlines can make the feed size smaller and have impact on the performance of the import.
-- It is best practice to apply [CDATA sections](https://www.tutorialspoint.com/xml/xml_cdata_sections.htm) to all fields containing text. For example, image and url elements usually contain characters like an ampersand (&). To increase readability in this guide we omit this from some elements.
+* If you don't have a basic understanding of XML, we recommend reading [XML for the uninitiated](https://support.microsoft.com/en-us/office/xml-for-the-uninitiated-a87d234d-4c2e-4409-9cbc-45e4eb857d44).
+* This tutorial will guide you in generating a feed in any programming language or tool, as long as you know how to write text to a file using that language or tool. It will also help you manually create a feed if needed.
+* To increase readability, the examples contain different levels of <Glossary>indentation</Glossary> and newlines. This is not required in your feed. Removing tabs and newlines can make the feed size smaller and have impact on the performance of the import.
+* It is best practice to apply [CDATA sections](https://www.tutorialspoint.com/xml/xml_cdata_sections.htm) to all fields containing text. For example, image and url elements usually contain characters like an ampersand (&). To increase readability in this guide we omit this from some elements.
