@@ -23,13 +23,13 @@ An expression string can consist of multiple lines that include constants, opera
 This expression is set for the Visible property of a control  
 to show/hide the control based on the ShowTotalAmount parameter value.  
 _/
-
+```
 Iif (  
   ?ShowTotalAmount == True,  
   True,  
   False  
   )
-
+```
 Review the following help topic for information on how to construct expression bindings for a report control: How to Construct Expressions.
 
 You can create custom functions to implement additional functionality. For more information, review the following help topics:
