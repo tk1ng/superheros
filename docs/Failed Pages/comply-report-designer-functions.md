@@ -8,23 +8,7 @@ metadata:
 Expression Language
 
 
-A null reference that does not refer to any object.
 
-We recommend that you use the IsNull unary operator (for example, `[Region] is null`) or the IsNull logical function (for example, `IsNull([Region])`) instead of ?.
-
-`[Region] != ?`
-
-# Operators
-
-Operator
-
-Description
-
-Example
-
- <br />
-
-Adds the value of one numeric expression to another or concatenates two strings.
 
 ```
 [UnitPrice] + 4
