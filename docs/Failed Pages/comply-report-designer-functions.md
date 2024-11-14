@@ -23,6 +23,7 @@ An expression string can consist of multiple lines that include constants, opera
 This expression is set for the Visible property of a control  
 to show/hide the control based on the ShowTotalAmount parameter value.  
 _/
+
 ```
 Iif (  
   ?ShowTotalAmount == True,  
@@ -96,7 +97,7 @@ Wrap a Guid constant in curly braces. Use Guid constants in a relational operati
 Numeric
 
 Specify numeric constant types in a string form by suffixes:
-
+```
 Int32 (int) - 1  
 Int16 (short) - 1s  
 Byte (byte) - 1b  
@@ -104,7 +105,7 @@ Double (double) - 1.0
 Single (float) - 1.0f  
 Decimal (decimal) - 1.0m  
 32-bit integer
-
+```
 No suffix
 
 `[CategoryID] == 1`
@@ -143,7 +144,7 @@ m
 
 A null reference that does not refer to any object.
 
-We recommend that you use the IsNull unary operator (for example, “[Region] is null”) or the IsNull logical function (for example, “IsNull([Region])”) instead of ?.
+We recommend that you use the IsNull unary operator (for example, `[Region] is null`) or the IsNull logical function (for example, `IsNull([Region])`) instead of ?.
 
 `[Region] != ?`
 
@@ -174,7 +175,7 @@ Finds the difference between two operands.
 
 Multiplies the value of two operands.
 
-`[Quantity] \* [UnitPrice]`
+`[Quantity] * [UnitPrice]`
 
 /
 
@@ -194,7 +195,7 @@ Divides one numeric operand by the other and returns the remainder (modulus).
 
 Performs a bitwise inclusive OR operation on two numeric expressions. Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.
 
-`[Number] \| [Number]`
+`[Number] | [Number]`
 
 &
 
