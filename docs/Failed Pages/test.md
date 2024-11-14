@@ -401,7 +401,24 @@ For a T-shirt you probably want the color and size. Let's add them in an attribu
 
 We added an attributes element containing multiple attribute elements. Each attribute element contains a name and a value.
 
-**Add callout here**
+> 📘 Multiple attribute values
+>
+> You can add multi-value attributes in separate \<attribute> elements with the same name but different values.
+>
+>
+>
+> ```xml
+> <attributes>
+>    <attribute>
+>      <name>Color</name>
+>      <value>Blue</value>
+>    </attribute>
+>    <attribute>
+>      <name>Color</name>
+>      <value>Red</value>
+>    </attribute>
+>  </attributes>
+> ```
 
 # Adding category links
 
