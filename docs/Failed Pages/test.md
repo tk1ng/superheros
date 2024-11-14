@@ -204,7 +204,7 @@ We added a categories element with ID 234. This is the id of the category 'Cloth
 
 # Import
 
-In **Tweakwise App > Connectivity > Tasks** you should create a new import task with Import type set to **Import items only**.
+In **Tweakwise App \> Connectivity \> Tasks** you should create a new import task with Import type set to **Import items only**.
 
 Make sure this task is executed **after**the **category** import task, using the task chaining option. This is necessary because the product import has a dependency on the category import.
 
