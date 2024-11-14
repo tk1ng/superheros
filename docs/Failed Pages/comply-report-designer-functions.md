@@ -7,15 +7,6 @@ metadata:
 ---
 Expression Language
 
-<br />
-
-This section describes the report-specific expression syntax. Refer to the following topic in the Cross-Platform Core Libraries documentation for a list of basic constants, operators, and functions you can use in other DevExpress products: Criteria Language Syntax.
-
-# Expression Syntax
-
-An expression is a text string that specifies what data to take and how to process it to obtain a value. For instance, the following expression returns an integer value of 5:
-
-3 + 2
 
 An expression string can consist of multiple lines that include constants, operators, function calls, fields or parameters, report items, and comments:
 
