@@ -7,51 +7,6 @@ metadata:
 ---
 Expression Language
 
-Specify numeric constant types in a string form by suffixes:
-```
-Int32 (int) - 1  
-Int16 (short) - 1s  
-Byte (byte) - 1b  
-Double (double) - 1.0  
-Single (float) - 1.0f  
-Decimal (decimal) - 1.0m  
-32-bit integer
-```
-No suffix
-
-`[CategoryID] == 1`
-
-16-bit integer
-
-s
-
-`[CategoryID] == 1s`
-
-Byte
-
-b
-
-`[CategoryID] == 1b`
-
-Double-precision floating-point number
-
-No suffix
-
-`[Length] == 1.0`
-
-Single-precision floating-point number
-
-f
-
-`[Length] == 1.0f`
-
-Decimal floating-point number
-
-m
-
-`[Price] == 25.0m`
-
-?
 
 A null reference that does not refer to any object.
 
