@@ -156,7 +156,7 @@ Description
 
 Example
 
-- <br />
+ <br />
 
 Adds the value of one numeric expression to another or concatenates two strings.
 
@@ -165,13 +165,13 @@ Adds the value of one numeric expression to another or concatenates two strings.
 
 [FirstName] + ‘ ‘ + [LastName]
 ```
-- <br />
+ <br />
 
 Finds the difference between two operands.
 
 `[Price1] - [Price2]`
 
-- <br />
+ <br />
 
 Multiplies the value of two operands.
 
@@ -295,13 +295,13 @@ Not [InStock]
 
 ![InStock]
 ```
-- <br />
+ <br />
 
 Returns a numeric expression’s value (a unary operator).
 
 `+[Value] = 10`
 
-- <br />
+ <br />
 
 Returns the negative of a numeric expression’s value (a unary operator).
 
