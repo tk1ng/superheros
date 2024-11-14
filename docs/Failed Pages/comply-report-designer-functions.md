@@ -6,36 +6,6 @@ metadata:
   robots: index
 ---
 Expression Language
-
-
-
-
-
-
-```
-[Country] == ‘France’
-
-[Name] == ‘O’’Neil’
-```
-
-Date-time constants
-
-Wrap date-time constants in ‘#’.
-
-`[OrderDate] >= #2018-03-22 13:18:51.94944#`
-
-True
-
-The Boolean True value.
-
-`[InStock] == True`
-
-False
-
-The Boolean False value.
-
-`[InStock] == False`
-
 Enumeration
 
 Specify an enumeration value by its underlying integer value.
