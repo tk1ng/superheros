@@ -6,27 +6,6 @@ metadata:
   robots: index
 ---
 Expression Language
-Enumeration
-
-Specify an enumeration value by its underlying integer value.
-
-`[Status] == 1`
-
-You cannot specify an enumeration value by its qualified name. The following criterion is incorrect:
-
-`[Status] = Status.InProgress`
-
-Call static methods of the EnumProcessingHelper class to register custom enumerations and refer to enumeration values as follows:
-
-`Status = ##Enum#MyNamespace.Status,InProgress#`
-
-Guid
-
-Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only.
-
-`[OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f}`
-
-Numeric
 
 Specify numeric constant types in a string form by suffixes:
 ```
