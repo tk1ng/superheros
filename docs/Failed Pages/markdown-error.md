@@ -235,13 +235,13 @@ Less than or equal to operator. Used to compare expressions.
 
 `[UnitPrice] <= 20`
 
-> =
+\> =
 
 Greater than or equal to operator. Used to compare expressions.
 
 `[UnitPrice] >= 30`
 
->
+\>
 
 Greater than operator. Used to compare expressions.
 
