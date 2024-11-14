@@ -7,24 +7,6 @@ metadata:
 ---
 Expression Language
 
-
-
-
-
-Divides the first operand by the second.  
-If both operands are integer, the resulting value is integer too. For example, 10/4 returns the value of 2.  
-To return fractional values, ensure that at least one operand is of a floating-point type: `ToDecimal(10)/4` returns the value of 2.5.
-
-`[Quantity] / 2`
-
-%
-
-Divides one numeric operand by the other and returns the remainder \(modulus\).
-
-`[Quantity] % 3`
-
-\|
-
 Performs a bitwise inclusive OR operation on two numeric expressions. Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.
 
 `[Number] | [Number]`
