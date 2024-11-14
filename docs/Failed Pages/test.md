@@ -7,19 +7,6 @@ metadata:
 ---
 
 
-# Basic structure
-
-Every XML document must have a root element. Our root element is 'tweakwise' and we'll open it with an opening tag `<tweakwise>`. Here's how that looks.
-
-```xml Example
-<?xml version="1.0" encoding="utf-8"?>
-<tweakwise>
-  <items>
-    <!-- -->
-  </items>
-</tweakwise>
-```
-
 # Adding items
 
 Now we will add all our items \(i.e. products, content or articles\).
